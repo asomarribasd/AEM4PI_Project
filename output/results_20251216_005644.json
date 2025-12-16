@@ -1,0 +1,95 @@
+{
+  "enriched_profile": {
+    "species": "dog",
+    "size": "medium",
+    "colors": [
+      "white",
+      "brown"
+    ],
+    "distinctive_features": [
+      "black spot on left ear"
+    ],
+    "breed": null,
+    "approximate_age": "young adult",
+    "last_seen_location": {
+      "province": "San José",
+      "canton": "Escazú",
+      "district": "San Antonio",
+      "additional_details": null
+    },
+    "last_seen_date": null
+  },
+  "matches": {
+    "candidates": [
+      {
+        "match_id": "LOST-001",
+        "report_type": "lost",
+        "similarity_score": 0.88,
+        "matching_reasons": [
+          "Same species (SpeciesType.DOG)",
+          "Same size (SizeType.MEDIUM)",
+          "Matching colors: brown, white",
+          "Similar features: black spot on left ear",
+          "Same area (Escazú)"
+        ],
+        "location_distance_km": 3.0,
+        "days_since_report": 5,
+        "pet_name": null,
+        "contact_available": true
+      },
+      {
+        "match_id": "SIGHT-001",
+        "report_type": "sighting",
+        "similarity_score": 0.8,
+        "matching_reasons": [
+          "Same species (SpeciesType.DOG)",
+          "Same size (SizeType.MEDIUM)",
+          "Matching colors: brown, white",
+          "Same area (Escazú)"
+        ],
+        "location_distance_km": 0.5,
+        "days_since_report": 2,
+        "pet_name": null,
+        "contact_available": true
+      }
+    ],
+    "top_match": {
+      "match_id": "LOST-001",
+      "report_type": "lost",
+      "similarity_score": 0.88,
+      "matching_reasons": [
+        "Same species (SpeciesType.DOG)",
+        "Same size (SizeType.MEDIUM)",
+        "Matching colors: brown, white",
+        "Similar features: black spot on left ear",
+        "Same area (Escazú)"
+      ],
+      "location_distance_km": 3.0,
+      "days_since_report": 5,
+      "pet_name": null,
+      "contact_available": true
+    },
+    "confidence_level": "high",
+    "total_candidates_found": 5,
+    "search_timestamp": "2025-12-16T00:56:41.136693"
+  },
+  "explanation": "There are two promising leads in the search for your beloved dog. The most encouraging match is a recent sighting just 0.5km away in Escazú, featuring the same species, size, and colors. Additionally, an earlier lost dog report, 3km away, shares the distinctive black spot on the left ear. Keep hopeful, as these results bring you closer to a joyful reunion.",
+  "recommended_actions": [
+    "Contact the reporter of LOST-001 immediately - this is a strong match",
+    "Bring photos of your pet when meeting to verify identity",
+    "Ask specific questions about distinctive features to confirm",
+    "Be prepared to provide proof of ownership if the pet is found",
+    "When posting, emphasize distinctive features: black spot on left ear"
+  ],
+  "confidence_summary": "High confidence match found! This could be your pet.",
+  "processing_metadata": {
+    "agent_1": "Visual & Text Extractor",
+    "agent_2": "Match & Similarity",
+    "agent_3": "Decision & Explanation",
+    "total_matches_found": 5,
+    "matches_above_threshold": 2,
+    "processing_time_seconds": 6.538339,
+    "start_time": "2025-12-16T00:56:38.198443",
+    "end_time": "2025-12-16T00:56:44.736782"
+  }
+}
