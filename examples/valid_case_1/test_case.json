@@ -1,0 +1,38 @@
+{
+  "test_name": "Valid Case 1 - Lost dog with good description",
+  "description": "Complete report of a lost dog with detailed description",
+  "user_input": {
+    "images": [
+      "examples/valid_case_1/dog_image_1.jpg",
+      "examples/valid_case_1/dog_image_2.jpg"
+    ],
+    "description": "My dog Max is missing since yesterday. He's a medium-sized mixed breed with white and brown patches. He has a very distinctive black spot on his left ear. He was wearing a red collar with a small bell. Max is about 3 years old, very friendly, and responds to his name. Last seen near the park in San Rafael, Escazú.",
+    "location": {
+      "province": "San José",
+      "canton": "Escazú",
+      "district": "San Antonio",
+      "additional_details": "Near the children's playground"
+    },
+    "contact_info": "8888-1111",
+    "report_type": "lost"
+  },
+  "expected_extraction": {
+    "species": "dog",
+    "size": "medium",
+    "colors": ["white", "brown"],
+    "distinctive_features": ["black spot on left ear", "red collar with bell"],
+    "breed": "Mixed breed",
+    "approximate_age": "adult"
+  },
+  "expected_matches": [
+    {
+      "match_id": "LOST-001",
+      "reason": "Very similar description - same area, same distinctive features"
+    },
+    {
+      "match_id": "SIGHT-001",
+      "reason": "Recent sighting in nearby district with matching features"
+    }
+  ],
+  "notes": "This should match LOST-001 (Max) with high confidence and SIGHT-001 as a potential sighting."
+}

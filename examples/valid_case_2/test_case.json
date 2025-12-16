@@ -1,0 +1,37 @@
+{
+  "test_name": "Valid Case 2 - Lost cat with complete info",
+  "description": "Complete report of a lost cat",
+  "user_input": {
+    "images": [
+      "examples/valid_case_2/cat_image_1.jpg"
+    ],
+    "description": "Our cat Luna has been missing for 2 days. She's a beautiful gray and white Persian mix with the most stunning green eyes. She has distinctive white paws and a very fluffy tail. Luna is shy around strangers but very affectionate with family. She's about 2 years old. Last seen in our neighborhood in San Vicente, Moravia, near the local church.",
+    "location": {
+      "province": "San José",
+      "canton": "Moravia",
+      "district": "San Vicente",
+      "additional_details": "Residential area, two blocks from the church"
+    },
+    "contact_info": "7777-2222",
+    "report_type": "lost"
+  },
+  "expected_extraction": {
+    "species": "cat",
+    "size": "small",
+    "colors": ["gray", "white"],
+    "distinctive_features": ["green eyes", "white paws", "fluffy tail"],
+    "breed": "Persian mix",
+    "approximate_age": "young adult"
+  },
+  "expected_matches": [
+    {
+      "match_id": "LOST-002",
+      "reason": "Exact match - same cat, same owner reporting again"
+    },
+    {
+      "match_id": "SIGHT-002",
+      "reason": "Recent sighting matching description in same area"
+    }
+  ],
+  "notes": "Should match LOST-002 perfectly and find SIGHT-002 as a promising lead."
+}

@@ -1,0 +1,318 @@
+{
+  "lost_pets": [
+    {
+      "report_id": "LOST-001",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "medium",
+        "colors": ["white", "brown"],
+        "distinctive_features": ["black spot on left ear", "red collar with bell"],
+        "breed": "Mixed breed",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Escazú",
+          "district": "San Rafael",
+          "additional_details": "Near Parque Central"
+        },
+        "last_seen_date": "2025-12-10"
+      },
+      "raw_description": "My dog Max went missing near the central park in San Rafael, Escazú. He's a medium-sized mixed breed with white and brown fur. He has a distinctive black spot on his left ear and was wearing a red collar with a bell. Very friendly and responds to his name.",
+      "image_paths": [],
+      "contact_info": "8888-1234",
+      "report_date": "2025-12-10T14:30:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-002",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "cat",
+        "size": "small",
+        "colors": ["gray", "white"],
+        "distinctive_features": ["green eyes", "white paws", "fluffy tail"],
+        "breed": "Persian mix",
+        "approximate_age": "young adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Moravia",
+          "district": "San Vicente",
+          "additional_details": "Residential area near the church"
+        },
+        "last_seen_date": "2025-12-14"
+      },
+      "raw_description": "Lost cat named Luna. She's a gray and white Persian mix with beautiful green eyes and distinctive white paws. Her tail is very fluffy. She's shy around strangers but very sweet. Last seen in our neighborhood near the church.",
+      "image_paths": [],
+      "contact_info": "7777-5678",
+      "report_date": "2025-12-14T09:15:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-003",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "large",
+        "colors": ["black", "tan"],
+        "distinctive_features": ["cropped ears", "blue collar", "scar on right leg"],
+        "breed": "German Shepherd",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Heredia",
+          "canton": "Heredia",
+          "district": "Mercedes",
+          "additional_details": "Near Universidad Nacional"
+        },
+        "last_seen_date": "2025-12-08"
+      },
+      "raw_description": "Large German Shepherd named Rex escaped from our yard. He's black and tan with cropped ears and wearing a blue collar. Has a visible scar on his right leg from an old injury. Very well trained but may be scared. Please help us find him!",
+      "image_paths": [],
+      "contact_info": "6666-9012",
+      "report_date": "2025-12-08T18:45:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-004",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "small",
+        "colors": ["golden", "cream"],
+        "distinctive_features": ["curly fur", "pink collar with rhinestones"],
+        "breed": "Poodle",
+        "approximate_age": "senior",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Escazú",
+          "district": "Escazú Centro",
+          "additional_details": "Shopping area near Multiplaza"
+        },
+        "last_seen_date": "2025-12-12"
+      },
+      "raw_description": "Small golden poodle named Bella. She's an older dog with curly cream-colored fur. Wearing a pink collar with rhinestones. She's deaf so won't respond to calls. Very gentle and loves people. Lost near Multiplaza area.",
+      "image_paths": [],
+      "contact_info": "8899-3456",
+      "report_date": "2025-12-12T11:20:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-005",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "cat",
+        "size": "medium",
+        "colors": ["orange", "white"],
+        "distinctive_features": ["orange stripes", "white chest", "missing tip of left ear"],
+        "breed": "Domestic shorthair",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Cartago",
+          "canton": "Cartago",
+          "district": "Oriental",
+          "additional_details": "Near Basilica de Nuestra Señora de los Ángeles"
+        },
+        "last_seen_date": "2025-12-11"
+      },
+      "raw_description": "Orange tabby cat with white chest. His name is Simba. He's missing the tip of his left ear from when he was neutered. Very friendly and used to being outdoors but always comes home. He's been gone for 5 days now.",
+      "image_paths": [],
+      "contact_info": "7788-6543",
+      "report_date": "2025-12-11T16:00:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-006",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "medium",
+        "colors": ["brown", "black"],
+        "distinctive_features": ["floppy ears", "white patch on chest"],
+        "breed": "Labrador Retriever",
+        "approximate_age": "puppy",
+        "last_seen_location": {
+          "province": "Alajuela",
+          "canton": "Alajuela",
+          "district": "Alajuela Centro",
+          "additional_details": "Near Parque Juan Santamaría"
+        },
+        "last_seen_date": "2025-12-13"
+      },
+      "raw_description": "Lost brown lab puppy named Charlie. Only 6 months old. Has floppy ears and a small white patch on his chest. Very playful and friendly. He slipped out when we opened the door. No collar.",
+      "image_paths": [],
+      "contact_info": "8877-7890",
+      "report_date": "2025-12-13T07:30:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-007",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "cat",
+        "size": "small",
+        "colors": ["black"],
+        "distinctive_features": ["yellow eyes", "white whiskers", "pink nose"],
+        "breed": "Domestic shorthair",
+        "approximate_age": "young adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Curridabat",
+          "district": "Curridabat Centro",
+          "additional_details": "Residential area near mall"
+        },
+        "last_seen_date": "2025-12-15"
+      },
+      "raw_description": "All black cat named Shadow. She has bright yellow eyes and a pink nose. Indoor cat that escaped through a window. She's not used to being outside and may be hiding. Please check under cars and in bushes.",
+      "image_paths": [],
+      "contact_info": "6655-4321",
+      "report_date": "2025-12-15T20:00:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-008",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "small",
+        "colors": ["white", "black"],
+        "distinctive_features": ["short legs", "long body", "pointy ears"],
+        "breed": "Jack Russell Terrier",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Heredia",
+          "canton": "Santo Domingo",
+          "district": "Santo Domingo Centro",
+          "additional_details": "Near the soccer field"
+        },
+        "last_seen_date": "2025-12-09"
+      },
+      "raw_description": "Small Jack Russell Terrier named Rocky. White with black markings, short legs, and pointy ears. Very energetic and may be chasing animals. He's microchipped. Last seen near the soccer field.",
+      "image_paths": [],
+      "contact_info": "7766-8901",
+      "report_date": "2025-12-09T13:45:00",
+      "status": "active"
+    }
+  ],
+  "sightings": [
+    {
+      "report_id": "SIGHT-001",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "medium",
+        "colors": ["white", "brown"],
+        "distinctive_features": ["black marking on ear", "collar visible"],
+        "breed": "Mixed breed",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Escazú",
+          "district": "San Antonio",
+          "additional_details": "Walking near the main road"
+        },
+        "last_seen_date": "2025-12-13"
+      },
+      "raw_description": "Saw a medium dog with white and brown fur near the main road in San Antonio. It looked lost and had some kind of dark marking on one ear. It was wearing a collar. Looked friendly but scared.",
+      "image_paths": [],
+      "contact_info": "Anonymous",
+      "report_date": "2025-12-13T16:20:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-002",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "cat",
+        "size": "small",
+        "colors": ["gray"],
+        "distinctive_features": ["fluffy", "white markings on paws"],
+        "breed": "Unknown",
+        "approximate_age": "young",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Moravia",
+          "district": "San Vicente",
+          "additional_details": "Hiding under a car"
+        },
+        "last_seen_date": "2025-12-15"
+      },
+      "raw_description": "Small fluffy gray cat hiding under a parked car. Has white on its paws. Seemed scared and wouldn't come out. Not sure if it's lost or belongs to someone nearby.",
+      "image_paths": [],
+      "contact_info": "8811-2233",
+      "report_date": "2025-12-15T08:30:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-003",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "large",
+        "colors": ["black", "brown"],
+        "distinctive_features": ["pointy ears", "blue collar"],
+        "breed": "Looks like a German Shepherd",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Heredia",
+          "canton": "Heredia",
+          "district": "Ulloa",
+          "additional_details": "Running near the university campus"
+        },
+        "last_seen_date": "2025-12-10"
+      },
+      "raw_description": "Large dog that looks like a German Shepherd running near the university. Black and tan coloring with pointy ears. Wearing a blue collar. Seemed lost and confused. Ran away when I tried to approach.",
+      "image_paths": [],
+      "contact_info": "7722-9988",
+      "report_date": "2025-12-10T12:00:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-004",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "small",
+        "colors": ["golden", "light brown"],
+        "distinctive_features": ["curly fur", "wearing collar"],
+        "breed": "Small curly dog",
+        "approximate_age": "older",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Escazú",
+          "district": "San Rafael",
+          "additional_details": "Near shopping center parking lot"
+        },
+        "last_seen_date": "2025-12-14"
+      },
+      "raw_description": "Small dog with curly golden fur in the shopping center parking lot. Looked old and confused. Was wearing a collar. Seemed gentle. Tried to give it water but it walked away slowly.",
+      "image_paths": [],
+      "contact_info": "6699-5544",
+      "report_date": "2025-12-14T17:00:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-005",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "cat",
+        "size": "medium",
+        "colors": ["orange"],
+        "distinctive_features": ["striped pattern", "ear damage"],
+        "breed": "Tabby cat",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Cartago",
+          "canton": "Cartago",
+          "district": "Occidental",
+          "additional_details": "Near market area"
+        },
+        "last_seen_date": "2025-12-13"
+      },
+      "raw_description": "Orange tabby cat near the market. Noticed one ear looks damaged or clipped. Friendly cat that came up to me. Seems used to people. Might be someone's pet.",
+      "image_paths": [],
+      "contact_info": "Anonymous",
+      "report_date": "2025-12-13T14:45:00",
+      "status": "active"
+    }
+  ]
+}

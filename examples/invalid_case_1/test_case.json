@@ -1,0 +1,23 @@
+{
+  "test_name": "Invalid Case 1 - Missing required location fields",
+  "description": "Report missing required location information (should fail validation)",
+  "user_input": {
+    "images": [
+      "examples/invalid_case_1/dog.jpg"
+    ],
+    "description": "Lost my dog somewhere in Costa Rica. Brown and white. Please help find him!",
+    "location": {
+      "province": "San José",
+      "canton": "",
+      "district": ""
+    },
+    "contact_info": "8888-9999",
+    "report_type": "lost"
+  },
+  "expected_behavior": "Should raise ValidationError due to empty canton and district fields",
+  "validation_errors": [
+    "Canton cannot be empty",
+    "District cannot be empty"
+  ],
+  "notes": "Tests Pydantic validation - should fail before reaching agents. This ensures data quality requirements are enforced."
+}

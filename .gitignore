@@ -1,3 +1,7 @@
+# Environment variables
+.env
+.env.local
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -202,6 +206,17 @@ cython_debug/
 .cursorindexingignore
 
 # Marimo
+
+# Vector store data
+data/vector_store/
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.bak
+temp/
+tmp/
 marimo/_static/
 marimo/_lsp/
 __marimo__/

@@ -1,0 +1,32 @@
+{
+  "test_name": "Edge Case 1 - Minimal information",
+  "description": "Report with minimal description and only one image",
+  "user_input": {
+    "images": [
+      "examples/edge_case_1/pet_image.jpg"
+    ],
+    "description": "Small brown dog lost near the market. Friendly. Please help.",
+    "location": {
+      "province": "Alajuela",
+      "canton": "Alajuela",
+      "district": "Alajuela Centro"
+    },
+    "contact_info": "6666-3333",
+    "report_type": "lost"
+  },
+  "expected_extraction": {
+    "species": "dog",
+    "size": "small",
+    "colors": ["brown"],
+    "distinctive_features": [],
+    "breed": null,
+    "approximate_age": null
+  },
+  "expected_matches": [
+    {
+      "match_id": "LOST-006",
+      "reason": "Brown puppy in Alajuela - possible match despite limited info"
+    }
+  ],
+  "notes": "Tests the system's ability to handle minimal input and still extract useful information from image analysis. Should work but produce lower confidence matches."
+}

@@ -1,0 +1,28 @@
+{
+  "test_name": "Invalid Case 2 - Too many images and invalid province",
+  "description": "Report with too many images and invalid province name",
+  "user_input": {
+    "images": [
+      "examples/invalid_case_2/img1.jpg",
+      "examples/invalid_case_2/img2.jpg",
+      "examples/invalid_case_2/img3.jpg",
+      "examples/invalid_case_2/img4.jpg",
+      "examples/invalid_case_2/img5.jpg",
+      "examples/invalid_case_2/img6.jpg"
+    ],
+    "description": "Lost cat in my neighborhood. Gray with white spots. Very friendly.",
+    "location": {
+      "province": "Madrid",
+      "canton": "Some Canton",
+      "district": "Some District"
+    },
+    "contact_info": "7777-8888",
+    "report_type": "lost"
+  },
+  "expected_behavior": "Should raise ValidationError due to too many images (6 > 5) and invalid province",
+  "validation_errors": [
+    "Maximum 5 images allowed",
+    "Province must be one of: San José, Alajuela, Cartago, Heredia, Guanacaste, Puntarenas, Limón"
+  ],
+  "notes": "Tests multiple validation rules simultaneously. Ensures system handles compound validation errors gracefully."
+}
