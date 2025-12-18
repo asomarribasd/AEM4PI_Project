@@ -191,6 +191,198 @@
       "contact_info": "7766-8901",
       "report_date": "2025-12-09T13:45:00",
       "status": "active"
+    },
+    {
+      "report_id": "LOST-009",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "medium",
+        "colors": ["brindle", "white"],
+        "distinctive_features": ["muscular build", "white chest patch", "cropped tail"],
+        "breed": "Boxer mix",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Desamparados",
+          "district": "Desamparados Centro",
+          "additional_details": "Near the bus terminal"
+        },
+        "last_seen_date": "2025-12-14"
+      },
+      "raw_description": "Missing boxer mix named Zeus. Brindle coloring with white chest patch. Muscular build and cropped tail. He's very strong but gentle with people. Lost near the bus terminal. Green collar with ID tag.",
+      "image_paths": [],
+      "contact_info": "8822-4455",
+      "report_date": "2025-12-14T19:30:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-010",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "cat",
+        "size": "large",
+        "colors": ["brown", "black"],
+        "distinctive_features": ["tabby stripes", "large size", "bushy tail", "tufted ears"],
+        "breed": "Maine Coon mix",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Heredia",
+          "canton": "Barva",
+          "district": "Barva Centro",
+          "additional_details": "Residential area with coffee plantations"
+        },
+        "last_seen_date": "2025-12-10"
+      },
+      "raw_description": "Large brown tabby cat named Bruno. He's a Maine Coon mix, very big for a cat with tufted ears and bushy tail. Indoor/outdoor cat that usually comes home daily but hasn't returned for a week. Has microchip.",
+      "image_paths": [],
+      "contact_info": "7755-8899",
+      "report_date": "2025-12-10T21:00:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-011",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "small",
+        "colors": ["tricolor", "brown", "white", "black"],
+        "distinctive_features": ["long ears", "short legs", "wagging tail"],
+        "breed": "Beagle",
+        "approximate_age": "young adult",
+        "last_seen_location": {
+          "province": "Alajuela",
+          "canton": "San Ramón",
+          "district": "San Ramón Centro",
+          "additional_details": "Near the central market"
+        },
+        "last_seen_date": "2025-12-12"
+      },
+      "raw_description": "Beagle named Snoopy. Classic tricolor (brown, white, black). Long droopy ears and short legs. Very food motivated, may follow people with food. Wearing red collar with contact info. Missing from our yard.",
+      "image_paths": [],
+      "contact_info": "6633-7766",
+      "report_date": "2025-12-12T15:45:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-012",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "cat",
+        "size": "small",
+        "colors": ["calico", "orange", "black", "white"],
+        "distinctive_features": ["patches of three colors", "one blue eye", "one green eye"],
+        "breed": "Domestic shorthair",
+        "approximate_age": "young adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "San José Centro",
+          "district": "Catedral",
+          "additional_details": "Historic downtown area"
+        },
+        "last_seen_date": "2025-12-16"
+      },
+      "raw_description": "Calico cat named Patches. She has unique heterochromia - one blue eye and one green eye. Orange, black and white coloring. Very distinctive looking. She's spayed and has a purple collar. Indoor cat that got out.",
+      "image_paths": [],
+      "contact_info": "8844-5566",
+      "report_date": "2025-12-16T10:00:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-013",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "large",
+        "colors": ["golden", "cream"],
+        "distinctive_features": ["long wavy fur", "feathered tail", "gentle expression"],
+        "breed": "Golden Retriever",
+        "approximate_age": "senior",
+        "last_seen_location": {
+          "province": "Cartago",
+          "canton": "La Unión",
+          "district": "Tres Ríos",
+          "additional_details": "Near the river walking path"
+        },
+        "last_seen_date": "2025-12-11"
+      },
+      "raw_description": "Old golden retriever named Buddy. He's 10 years old with long golden fur. Very gentle and slow moving. He wandered off during our morning walk near the river. Blue collar with our phone number. May be confused.",
+      "image_paths": [],
+      "contact_info": "7711-2244",
+      "report_date": "2025-12-11T08:30:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-014",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "medium",
+        "colors": ["red", "rust"],
+        "distinctive_features": ["pointy ears", "curled tail", "fox-like face"],
+        "breed": "Shiba Inu",
+        "approximate_age": "young adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Montes de Oca",
+          "district": "San Pedro",
+          "additional_details": "Near university area"
+        },
+        "last_seen_date": "2025-12-15"
+      },
+      "raw_description": "Shiba Inu named Mochi escaped during walk. Red/rust colored with fox-like face, pointy ears and curled tail. She's wearing a harness (purple). Very fast runner and stubborn. Doesn't always come when called.",
+      "image_paths": [],
+      "contact_info": "8866-3344",
+      "report_date": "2025-12-15T17:20:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-015",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "cat",
+        "size": "medium",
+        "colors": ["white", "gray"],
+        "distinctive_features": ["blue eyes", "pointed ears", "dark face mask"],
+        "breed": "Siamese mix",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Heredia",
+          "canton": "San Rafael",
+          "district": "San Rafael Centro",
+          "additional_details": "Quiet residential neighborhood"
+        },
+        "last_seen_date": "2025-12-13"
+      },
+      "raw_description": "Siamese mix cat named Luna. White body with gray/dark points on face, ears, and paws. Beautiful blue eyes. Very vocal and talkative. Indoor cat that escaped when door was left open. Please help!",
+      "image_paths": [],
+      "contact_info": "7788-9900",
+      "report_date": "2025-12-13T12:15:00",
+      "status": "active"
+    },
+    {
+      "report_id": "LOST-016",
+      "report_type": "lost",
+      "pet_description": {
+        "species": "dog",
+        "size": "small",
+        "colors": ["tan", "fawn"],
+        "distinctive_features": ["wrinkled face", "curled tail", "snorting sounds"],
+        "breed": "Pug",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Alajuela",
+          "canton": "Grecia",
+          "district": "Grecia Centro",
+          "additional_details": "Near central park"
+        },
+        "last_seen_date": "2025-12-14"
+      },
+      "raw_description": "Pug named Winston. Tan/fawn colored with typical wrinkled pug face and curled tail. He snorts when he breathes. Overweight and can't run far. Orange collar. Last seen in central park area.",
+      "image_paths": [],
+      "contact_info": "6677-1133",
+      "report_date": "2025-12-14T14:00:00",
+      "status": "active"
     }
   ],
   "sightings": [
@@ -312,6 +504,246 @@
       "image_paths": [],
       "contact_info": "Anonymous",
       "report_date": "2025-12-13T14:45:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-006",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "medium",
+        "colors": ["brindle", "white"],
+        "distinctive_features": ["muscular", "white marking on chest"],
+        "breed": "Looks like a boxer",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Desamparados",
+          "district": "San Miguel",
+          "additional_details": "Walking along main street"
+        },
+        "last_seen_date": "2025-12-15"
+      },
+      "raw_description": "Muscular brindle dog with white chest patch walking alone on main street. Looked like a boxer breed. No visible collar but seemed friendly. Was sniffing around looking for something.",
+      "image_paths": [],
+      "contact_info": "8833-6677",
+      "report_date": "2025-12-15T11:30:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-007",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "cat",
+        "size": "large",
+        "colors": ["brown", "striped"],
+        "distinctive_features": ["very large", "long fur", "bushy tail"],
+        "breed": "Big fluffy cat",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Heredia",
+          "canton": "Barva",
+          "district": "San Pablo",
+          "additional_details": "Near coffee plantation entrance"
+        },
+        "last_seen_date": "2025-12-12"
+      },
+      "raw_description": "Unusually large cat with long brown tabby fur. Very bushy tail and tufted ears. Bigger than most cats. Seemed friendly but kept distance. Saw it near the coffee plantation entrance.",
+      "image_paths": [],
+      "contact_info": "Anonymous",
+      "report_date": "2025-12-12T16:00:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-008",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "small",
+        "colors": ["brown", "white", "black"],
+        "distinctive_features": ["long droopy ears", "short legs"],
+        "breed": "Looks like a beagle",
+        "approximate_age": "young",
+        "last_seen_location": {
+          "province": "Alajuela",
+          "canton": "San Ramón",
+          "district": "Santiago",
+          "additional_details": "Near residential area"
+        },
+        "last_seen_date": "2025-12-13"
+      },
+      "raw_description": "Small dog with long ears and short legs. Brown, black and white coloring like a beagle. Was following people near residential area. Seemed lost and hungry. Tried to approach but it ran away.",
+      "image_paths": [],
+      "contact_info": "7744-9988",
+      "report_date": "2025-12-13T09:45:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-009",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "cat",
+        "size": "small",
+        "colors": ["calico", "multicolor"],
+        "distinctive_features": ["three colors", "unusual eyes"],
+        "breed": "Mixed",
+        "approximate_age": "young",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "San José Centro",
+          "district": "Merced",
+          "additional_details": "Near the museum"
+        },
+        "last_seen_date": "2025-12-16"
+      },
+      "raw_description": "Beautiful calico cat with orange, black and white patches. Had strange colored eyes - looked like two different colors. Was meowing near the museum. Seemed scared and lost.",
+      "image_paths": [],
+      "contact_info": "8855-2211",
+      "report_date": "2025-12-16T15:20:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-010",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "large",
+        "colors": ["golden", "cream"],
+        "distinctive_features": ["long fur", "wavy coat", "limping"],
+        "breed": "Golden retriever",
+        "approximate_age": "old",
+        "last_seen_location": {
+          "province": "Cartago",
+          "canton": "La Unión",
+          "district": "San Diego",
+          "additional_details": "Walking slowly near park"
+        },
+        "last_seen_date": "2025-12-12"
+      },
+      "raw_description": "Old golden retriever walking slowly and limping. Long golden wavy fur. Looked tired and confused. No collar visible. Seemed gentle when I approached. Near the park area.",
+      "image_paths": [],
+      "contact_info": "6688-4455",
+      "report_date": "2025-12-12T10:30:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-011",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "medium",
+        "colors": ["red", "orange"],
+        "distinctive_features": ["fox-like appearance", "pointy ears", "curled tail"],
+        "breed": "Looks Japanese",
+        "approximate_age": "young",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Montes de Oca",
+          "district": "Mercedes",
+          "additional_details": "Running near university campus"
+        },
+        "last_seen_date": "2025-12-16"
+      },
+      "raw_description": "Red-orange dog that looks like a fox. Pointy ears and curly tail. Medium size. Was running fast near the university. Wearing some kind of harness. Didn't stop when called.",
+      "image_paths": [],
+      "contact_info": "7799-6633",
+      "report_date": "2025-12-16T08:15:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-012",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "cat",
+        "size": "medium",
+        "colors": ["white", "dark points"],
+        "distinctive_features": ["blue eyes", "dark face and ears"],
+        "breed": "Siamese type",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Heredia",
+          "canton": "San Rafael",
+          "district": "San Josecito",
+          "additional_details": "Under parked car"
+        },
+        "last_seen_date": "2025-12-14"
+      },
+      "raw_description": "White cat with dark markings on face, ears and paws. Blue eyes. Looked like a Siamese. Was hiding under a parked car and meowing loudly. Seemed scared to come out.",
+      "image_paths": [],
+      "contact_info": "8877-5544",
+      "report_date": "2025-12-14T18:00:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-013",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "small",
+        "colors": ["tan", "beige"],
+        "distinctive_features": ["flat face", "short snout", "curly tail"],
+        "breed": "Small flat-faced dog",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "Alajuela",
+          "canton": "Grecia",
+          "district": "San Isidro",
+          "additional_details": "Near shopping area"
+        },
+        "last_seen_date": "2025-12-15"
+      },
+      "raw_description": "Small tan dog with wrinkled flat face and curly tail. Looks like a pug. Was panting heavily in the heat. Walking slowly near shopping area. Seemed overweight and tired.",
+      "image_paths": [],
+      "contact_info": "6655-7788",
+      "report_date": "2025-12-15T13:45:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-014",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "dog",
+        "size": "medium",
+        "colors": ["white", "brown"],
+        "distinctive_features": ["spotted ears", "friendly demeanor"],
+        "breed": "Mixed breed",
+        "approximate_age": "adult",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Escazú",
+          "district": "San Rafael",
+          "additional_details": "Near residential area"
+        },
+        "last_seen_date": "2025-12-11"
+      },
+      "raw_description": "Friendly medium dog with white and brown patches. One ear had distinctive spots. Was wandering alone but seemed well-fed and groomed. Might be someone's lost pet.",
+      "image_paths": [],
+      "contact_info": "7766-3322",
+      "report_date": "2025-12-11T14:30:00",
+      "status": "active"
+    },
+    {
+      "report_id": "SIGHT-015",
+      "report_type": "sighting",
+      "pet_description": {
+        "species": "cat",
+        "size": "small",
+        "colors": ["black"],
+        "distinctive_features": ["all black", "bright eyes"],
+        "breed": "Domestic shorthair",
+        "approximate_age": "young",
+        "last_seen_location": {
+          "province": "San José",
+          "canton": "Curridabat",
+          "district": "Granadilla",
+          "additional_details": "Behind commercial building"
+        },
+        "last_seen_date": "2025-12-16"
+      },
+      "raw_description": "All black cat with bright yellow-green eyes. Small and seemed scared. Was hiding behind a commercial building. Looked too well-groomed to be a street cat. Might be lost.",
+      "image_paths": [],
+      "contact_info": "Anonymous",
+      "report_date": "2025-12-16T12:00:00",
       "status": "active"
     }
   ]
