@@ -1,7 +1,3 @@
-Below is a **clean, complete English translation and reformulation** of the proposed idea, **explicitly written so you can paste it into another AI** and ask it to help you build the project **while fully complying with the provided deliverables and evaluation rubric**.
-
-I have structured it as **implementation instructions + project definition**, not just a description, so the next AI can directly act on it.
-
 ---
 
 # Project Idea and Implementation Instructions (English)
@@ -273,19 +269,4 @@ The final repository must include:
 * Uses advanced tooling correctly
 * Shows production-level engineering judgment
 
----
 
-### Instruction to the Next AI
-
-**“Use this specification to generate the full implementation plan, agent prompts, Pydantic schemas, and starter code while strictly adhering to the repository structure and evaluation rubric.”**
-
----
-
-If you want, next I can:
-
-* Generate **agent system prompts**
-* Write a **ready-to-submit proposal.md**
-* Create a **README that already meets word counts**
-* Draft a **main.py orchestration skeleton**
-
-Just tell me the next step.
