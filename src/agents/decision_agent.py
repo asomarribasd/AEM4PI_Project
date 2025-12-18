@@ -147,6 +147,7 @@ Be concise but warm. Don't use phrases like "I found" - speak directly about the
             top_match = match_result.top_match
             recommendations.extend([
                 f"Contact the reporter of {top_match.match_id} immediately - this is a strong match",
+                f"View full details at: {top_match.view_url}",
                 "Bring photos of your pet when meeting to verify identity",
                 "Ask specific questions about distinctive features to confirm",
                 "Be prepared to provide proof of ownership if the pet is found"
@@ -157,8 +158,18 @@ Be concise but warm. Don't use phrases like "I found" - speak directly about the
         
         elif match_result.confidence_level == ConfidenceLevel.MEDIUM:
             # Medium confidence
+            top_match = match_result.top_match
             recommendations.extend([
-                "Review the potential matches carefully and contact reporters for more details",
+                "Review the potential matches carefully and contact reporters for more details"
+            ])
+            
+            # Add URLs for top matches
+            if top_match and top_match.view_url:
+                recommendations.append(f"View top match details: {top_match.view_url}")
+                if len(match_result.candidates) > 1 and match_result.candidates[1].view_url:
+                    recommendations.append(f"View second match: {match_result.candidates[1].view_url}")
+            
+            recommendations.extend([
                 "Ask for additional photos or descriptions to verify",
                 "Continue active searching in the reported areas",
                 "Post your pet's information on local lost pet groups"

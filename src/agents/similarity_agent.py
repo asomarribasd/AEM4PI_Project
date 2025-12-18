@@ -4,6 +4,7 @@ Searches for similar pets using embeddings and similarity scoring.
 """
 
 import os
+import hashlib
 from typing import List, Tuple, Optional
 from datetime import datetime
 from src.models.pet_models import PetDescription, PetReport
@@ -209,6 +210,9 @@ class MatchSimilarityAgent:
         # Calculate days since report
         days_since = self.db.calculate_days_since(report.report_date)
         
+        # Generate fake URL for viewing the report
+        view_url = self.generate_view_url(report.report_id)
+        
         return MatchCandidate(
             match_id=report.report_id,
             report_type=report.report_type,
@@ -216,8 +220,28 @@ class MatchSimilarityAgent:
             matching_reasons=reasons,
             location_distance_km=distance,
             days_since_report=days_since,
-            contact_available=bool(report.contact_info)
+            contact_available=bool(report.contact_info),
+            view_url=view_url
         )
+    
+    def generate_view_url(self, report_id: str) -> str:
+        """
+        Generate a fake URL for viewing the report details.
+        
+        Args:
+            report_id: The report ID
+            
+        Returns:
+            Fake URL with consistent hash-based ID
+        """
+        # Create a consistent hash from report_id
+        hash_obj = hashlib.md5(report_id.encode())
+        hex_hash = hash_obj.hexdigest()
+        
+        # Split into UUID-like format: 8-4-4-4-12
+        fake_id = f"{hex_hash[:8]}-{hex_hash[8:12]}-{hex_hash[12:16]}-{hex_hash[16:20]}-{hex_hash[20:32]}"
+        
+        return f"http://losmimados.com/pets?id={fake_id}"
     
     def determine_confidence(self, candidates: List[MatchCandidate]) -> ConfidenceLevel:
         """

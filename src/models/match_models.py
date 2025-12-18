@@ -41,6 +41,7 @@ class MatchCandidate(BaseModel):
     )
     pet_name: Optional[str] = Field(None, description="Name of the pet if available")
     contact_available: bool = Field(default=False, description="Whether contact info is available")
+    view_url: Optional[str] = Field(None, description="URL to view full report details")
 
     @field_validator('similarity_score')
     @classmethod
